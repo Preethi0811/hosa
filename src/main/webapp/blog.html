@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="subbanner">
+        <nav>
+            <a href="index.html"> <img src="images/computer-icon-2429310_1280.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li> <a href="index.html">HOME</a></li>
+                <li> <a href="about.html">ABOUT</a></li>
+                <li> <a href="course.html">COURSES</a></li>
+                <li> <a href="blog.html">BLOG</a></li>
+                <li> <a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+      <h1>Our Certification & Online Programs</h1>
+    </section>
+
+<!-- .....................blog content........... -->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/pexels-olia-danilevich-8093032.jpg">
+            <h2>Our Certification & Online Programs</h2>
+            <p>Our university offers a comprehensive range of online courses designed to cater to the diverse needs of learners across the globe. These courses are crafted by experienced faculty members and industry experts to ensure high-quality content and practical relevance. Whether you’re looking to advance your career, explore new fields, or gain specialized skills, our online programs provide flexible learning options that fit your schedule. Each course combines engaging materials, interactive assignments, and assessments to ensure a robust learning experience.</p>
+            <br>
+            <p>In addition to online courses, our university provides a variety of certification programs that are recognized and valued by employers worldwide. These certifications are designed to validate your skills and knowledge in specific areas, enhancing your professional credentials and career prospects. Our programs cover a wide range of disciplines, from technology and business to health and humanities, enabling you to gain expertise in your chosen field. Upon completion, you will receive a certification that demonstrates your commitment to professional development and expertise.</p>
+            <br>
+            <p>Our online learning platform is user-friendly and accessible, making it easy for students to manage their coursework and stay connected with instructors and peers. We offer a range of support services, including virtual office hours, discussion forums, and technical assistance to help you succeed in your studies. Our commitment to providing a supportive online learning environment ensures that you have the resources and guidance needed to achieve your educational goals. Additionally, our courses are designed to be engaging and interactive, using multimedia and real-world scenarios to enhance the learning experience.</p><br>
+            <p>By participating in our online courses and certification programs, you join a global community of learners who are dedicated to continuous improvement and lifelong learning. Our university’s emphasis on innovation and excellence extends to our online offerings, ensuring that you receive a high-quality education that is both current and practical. As you progress through your chosen program, you’ll gain valuable skills and knowledge that will help you stay competitive in today’s fast-paced job market. Embrace the opportunity to learn from the best and advance your career with our cutting-edge online courses and certifications.</p>
+        </div>
+        <div class="blog-right"> 
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Analytics</span>
+                    <span>29</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>31</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>57</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>41</span>
+                </div>
+
+                <div>
+                    <span>AutoCaad</span>
+                    <span>21</span>
+                </div>
+                
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!-- ..........................footer............. -->
+ <section class="footer">
+    <h4>About Us</h4>
+    <p>To Know More About Checkout Our Social Media Handles</p>
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+
+</div> 
+</section>
+
+    <!----------------------java script for toggle menu-------->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

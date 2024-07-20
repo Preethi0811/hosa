@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="subbanner">
+        <nav>
+            <a href="index.html"> <img src="images/computer-icon-2429310_1280.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li> <a href="index.html">HOME</a></li>
+                <li> <a href="about.html">ABOUT</a></li>
+                <li> <a href="course.html">COURSES</a></li>
+                <li> <a href="blog.html">BLOG</a></li>
+                <li> <a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+      <h1>Contact Us</h1>
+    </section>
+    <!-- ...........contact us......... -->
+  <section class="location"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d251482.54470023207!2d76.30093384999999!3d9.9825565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d514abec6bf%3A0xbd582caa5844192!2sKochi%2C%20Kerala!5e0!3m2!1sen!2sin!4v1721420367210!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section> 
+
+  <section class="contact-us">
+    <div class="contact-col">
+        <div>
+            <i class="fa fa-home"></i>
+            <span>
+                <h5>#08, 11th Main, XYZ Road, ABC Street</h5>
+<p>Kochi,Kerala</p>            </span>
+        </div>
+        <div>
+            <i class="fa fa-phone"></i>
+            <span>
+                <h5>+91 98765 43210</h5>
+<p>Available From Monday to Saturday Between 9am to 5pm</p>       </span>
+        </div>
+        <div>
+            <i class="fa fa-envelope-o"></i>
+            <span>
+                <h5>aspireniversity@gmail.com</h5>
+<p>Email us your query</p>       </span>
+        </div>
+    </div>
+  </section>
+<!-- ..........................footer............. -->
+ <section class="footer">
+    <h4>About Us</h4>
+    <p>To Know More About Us Checkout Our Social Media Handles</p>
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+
+</div> 
+</section>
+
+    <!----------------------java script for toggle menu-------->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

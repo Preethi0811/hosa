@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aspire University/About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="subbanner">
+        <nav>
+            <a href="index.html"> <img src="images/computer-icon-2429310_1280.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li> <a href="index.html">HOME</a></li>
+                <li> <a href="about.html">ABOUT</a></li>
+                <li> <a href="course.html">COURSES</a></li>
+                <li> <a href="blog.html">BLOG</a></li>
+                <li> <a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+      <h1>Our Courses</h1>
+    </section>
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Our university offers a wide range of undergraduate (UG) and postgraduate (PG) courses designed to equip students with the knowledge and skills needed to excel in their chosen fields. Our UG programs provide a strong foundation in various disciplines, while our PG courses offer advanced specialization and research opportunities. </p>
+
+<div class="row">
+        <div class="course-col">
+            <h3>Under Graduation Degree</h3>
+            <p>Our university offers a diverse range of undergraduate programs designed to equip students with comprehensive knowledge and practical skills in their chosen fields. From Engineering and Technology to Business, Arts, and Sciences, our curriculum is crafted to foster innovation, critical thinking, and professional development.</p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation Degree</h3>
+            <p>
+                At our university, we offer a range of postgraduate courses designed to equip students with advanced knowledge and skills in their chosen fields. These courses are taught by experienced faculty and combine theoretical learning with practical application, ensuring graduates are well-prepared for industry challenges.</p>
+        </div>
+        
+</div>      
+</section>
+
+
+
+<!-- ----Facilities------ -->
+<section class="campus">
+    <h1>OUR FACILITIES</h1>
+    <p>Our university boasts a world-class library, providing an extensive collection of resources and a serene environment for study and research. It features the largest sports court in the region, catering to a wide variety of athletic activities and fostering a spirit of teamwork and fitness. Additionally, our dining services offer healthy and delicious food options, ensuring that students can enjoy nutritious meals to fuel their academic and extracurricular endeavors.</p>
+    <div class="row">
+    <div class="facilities-col">
+        <img src="images/pexels-rickyrecap-1907785.jpg">
+        
+            <h3>World Class Library</h3>
+            <p>The library features state-of-the-art facilities, including quiet study areas, collaborative workspaces, and cutting-edge technology. </p>
+        
+    </div>
+    <div class="facilities-col">
+        <img src="images/pexels-chuck-2874717.jpg">
+        
+            <h3>Largest Sports Court</h3>
+            <p>Our university boasts the largest sports facilities, featuring state-of-the-art courts for basketball, tennis, and volleyball.</p>
+        
+    </div>
+    
+  
+    
+    <div class="facilities-col">
+        <img src="images/pexels-lum3n-44775-604969.jpg">
+        
+            <h3>Tasty & Healthy Food</h3>
+            <p>Our on-campus dining facilities use fresh, locally-sourced ingredients to prepare nutritious meals that fuel both body and mind. </p>
+        
+    </div>
+  
+    </div>
+    </section>
+
+
+<!-- ..........................footer............. -->
+ <section class="footer">
+    <h4>About Us</h4>
+    <p>To Know More About Checkout Our Social Media Handles</p>
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+
+</div> 
+</section>
+
+    <!----------------------java script for toggle menu-------->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
